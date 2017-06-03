@@ -1,10 +1,14 @@
 
-### Curfew Checker Lab
+# Curfew Checker Lab
 <img src="https://s3.amazonaws.com/after-school-assets/curfew.jpg" width="300px" align="right" hspace="10"> Imagine you're at Hogwarts and there's a curfew to get back to the common room by 11. Who needs a watch when you could just write a program to check if it's time to get back! Write your code in `curfew_checker.rb`.
 
 You're going to be using **if statements** within methods that take in `time` as a parameter. You'll build out a few different checkers of increasing levels of complexity to test your Ruby skills. Then, you'll run `rspec` test that's already been built out to see if your methods work. 
 
 Remember, it's helpful to take a look at the tests first to get an idea of how your code should look. Don't worry if the test-specific syntax is unfamiliar; the great thing about Ruby in general is that it resembles English closely enough that you can more or less make out what's happening in the code.
+
+## Setup Instructions
+
+Fork and clone this lab, and then `cd` into the lab directory. 
 
 ### Simple Curfew Checker
 
