@@ -6,6 +6,8 @@ You're going to be using **if statements** within methods that take in `time` as
 
 Remember, it's helpful to take a look at the tests first to get an idea of how your code should look. Don't worry if the test-specific syntax is unfamiliar; the great thing about Ruby in general is that it resembles English closely enough that you can more or less make out what's happening in the code.
 
+One final reminder: `puts` and returning are different to your program! `puts` will be visible to you in your terminal but returns `nil` to your program. 
+
 ## Setup Instructions
 
 Fork and clone this lab, and then `cd` into the lab directory. 
