@@ -1,12 +1,12 @@
 
 # Curfew Checker Lab
-<img src="https://s3.amazonaws.com/after-school-assets/curfew.jpg" width="300px" align="right" hspace="10"> Imagine you're at Hogwarts and there's a curfew to get back to the common room by 11. Who needs a watch when you could just write a program to check if it's time to get back! Write your code in `curfew_checker.rb`.
+<img src="https://s3.amazonaws.com/after-school-assets/curfew.jpg" width="300px" align="right" hspace="10"> Imagine you're at Hogwarts and there's a curfew to get back to the common room by 11. Who needs a watch when you could just write a program to check if it's time to get back! Write your code in `lib/curfew_checker.rb`.
 
 You're going to be using **if statements** within methods that take in `time` as a parameter. You'll build out a few different checkers of increasing levels of complexity to test your Ruby skills. Then, you'll run `rspec` test that's already been built out to see if your methods work. 
 
 Remember, it's helpful to take a look at the tests first to get an idea of how your code should look. Don't worry if the test-specific syntax is unfamiliar; the great thing about Ruby in general is that it resembles English closely enough that you can more or less make out what's happening in the code.
 
-One final reminder: `puts` and returning are different to your program! `puts` will be visible to you in your terminal but returns `nil` to your program. 
+One final reminder: `puts` and returning values to your application are different to your program! `puts` will be visible to you in your terminal but returns `nil` to your program. 
 
 ## Setup Instructions
 
@@ -29,7 +29,7 @@ end
 ```
 ...will print the sentence "Four is less than five." to the terminal.
 
-Start by writing a simple method that takes in `time` as a parameter and uses an **if statement** to check if `time` is greater than or equal to curfew, 11. To pass the spec, check out what the test what you to output. Type `rspec` into your command line from the **root directory of the project** to see if the first test passes.
+Start by writing a simple method that takes in `time` as a parameter and uses an **if statement** to check if `time` is greater than or equal to curfew, 11. To pass the spec, check out what the test wants you to output. Type `rspec` into your command line from the **root directory of the project** to see if the first test passes.
 
 ### Curfew Checker
 
