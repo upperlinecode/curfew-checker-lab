@@ -33,9 +33,8 @@ end
 
 describe "#complex_curfew_checker" do
 
-  it "should say you're in trouble if it's 11" do 
+  it "should say time to apparate if it's 11" do 
     expect(complex_curfew_checker(11)).to eq("Time to apparate!")
-
   end
 
   it "should say you're in trouble if it's later than 11" do 
@@ -66,16 +65,15 @@ end
 
 describe "#platinum_curfew_checker" do 
 
-  it "should say you're in trouble if it's 11 and curfew is at 11" do 
+  it "should say time to apparate if it's 11 and curfew is at 11" do 
     expect(platinum_curfew_checker(11, 11)).to eq("Time to apparate!")
   end
 
   it "should say you're in trouble if it's later than 11, which is your curfew" do 
     expect(platinum_curfew_checker(12, 11)).to eq ("You're in trouble! Better get back to Hogwarts quick!")
-
   end
 
-  it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 hrs left" do 
+  it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 hrs left (the remaining hours left until curfew)" do 
     expect(platinum_curfew_checker(9, 11)).to eq ("You have 2 hour(s) left to keep having fun!")
   end
 end

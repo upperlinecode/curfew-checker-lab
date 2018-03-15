@@ -1,7 +1,3 @@
-require 'bundler'
-Bundler.require
-
-
 def simple_curfew_checker(time)
   # code goes here
 end
